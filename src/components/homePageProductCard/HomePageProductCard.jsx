@@ -55,7 +55,7 @@ const HomePageProductCard = () => {
 
                             return (
                                 <div key={index} className="border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer">
-                                    <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md">
+                                    <div className=" border border-gray-300 rounded-xl overflow-hidden shadow-md">
                                         <img
                                             onClick={() => navigate(`/productinfo/${id}`)}
                                             className="lg:h-80 h-96 w-full"
